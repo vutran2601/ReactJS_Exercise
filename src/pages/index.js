@@ -1,11 +1,31 @@
-import * as React from "react";
+import * as React from 'react';
+import Header from '../components/Layout/header';
+import HelloWorld from '../components/Exercise/1';
+import MappingList from '../components/Exercise/2';
+import CheckboxList from '../components/Exercise/3';
+import ButtonNumberIncrement from '../components/Exercise/4';
+import CustomForm from '../components/Exercise/5';
 
 const Page = () => {
     return (
         <>
-            Hello
+            <Header />
+            <div
+                style={{
+                    height: '100%',
+                    padding: '50px',
+                    display: 'grid',
+                    justifyContent: 'center'
+                }}
+            >
+                <HelloWorld/>
+                <MappingList/>
+                <CheckboxList/>
+                <ButtonNumberIncrement/>
+                <CustomForm/>
+            </div>
         </>
-    )
-}
+    );
+};
 
 export default Page;
