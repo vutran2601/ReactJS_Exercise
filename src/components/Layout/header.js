@@ -12,6 +12,7 @@ const Header = () => {
                     textAlign: 'center',
                     position: 'sticky',
                     top: '0px',
+                    zIndex: 9999
                 }}
             >
                 [Netpower VN] Vu Tran - ReactJS Exercise

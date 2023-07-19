@@ -5,6 +5,8 @@ import MappingList from '../components/Exercise/2';
 import CheckboxList from '../components/Exercise/3';
 import ButtonNumberIncrement from '../components/Exercise/4';
 import CustomForm from '../components/Exercise/5';
+import RenderingJSON from '../components/Exercise/6';
+import SearchFilter from '../components/Exercise/7';
 
 const Page = () => {
     return (
@@ -23,6 +25,8 @@ const Page = () => {
                 <CheckboxList/>
                 <ButtonNumberIncrement/>
                 <CustomForm/>
+                <RenderingJSON/>
+                <SearchFilter/>
             </div>
         </>
     );
