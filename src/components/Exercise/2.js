@@ -39,7 +39,7 @@ const MappingList = () => {
     ]);
 
     return (
-        <div className={styles.contentLayout}>
+        <div className={styles['content-layout']}>
             <Title title="2. Mapping through a-list and rendering" />
             <table style={{ borderCollapse: 'collapse' }}>
                 <tbody>

@@ -45,7 +45,7 @@ const Container = (props) => {
 
 const RenderingJSON = () => {
     return (
-        <div className={styles.contentLayout}>
+        <div className={styles['content-layout']}>
             <Title title='6. Rendering JSON'/>
             <div
                 style={{

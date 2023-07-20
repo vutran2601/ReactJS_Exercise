@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import Title from './Title';
 import styles from './styles.module.css';
 
@@ -16,7 +16,7 @@ const SearchFilter = () => {
     const [result, setResult] = useState([])
 
     return (
-        <div className={styles.contentLayout}>
+        <div className={styles['content-layout']}>
             <Title title='7. Build search filter'/>
             <div
                 style={{
@@ -32,7 +32,8 @@ const SearchFilter = () => {
                     style={{
                         display: 'flex',
                         flexDirection: 'column',
-                        position: 'relative'
+                        width: '200px',
+                        gap: '10px'
                     }}
                 >
                     {/* Search input */}
@@ -46,7 +47,6 @@ const SearchFilter = () => {
                             console.log(result.length === 0)
                         }}
                         style={{
-                            width: '150px',
                             border: '1px solid #DEDEDE',
                             padding: '10px',
                             borderRadius: '5px',
@@ -59,7 +59,6 @@ const SearchFilter = () => {
                         result.length !== 0 &&
                         <div
                             style={{
-                                width: '150px',
                                 padding: '10px',
                                 boxSizing: 'border-box',
                                 border: '1px solid #DEDEDE',
@@ -68,8 +67,6 @@ const SearchFilter = () => {
                                 display: 'flex',
                                 flexDirection: 'column',
                                 gap: '10px',
-                                position: 'absolute',
-                                bottom: '120%',
                                 zIndex: 999
                             }}
                         >

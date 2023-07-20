@@ -17,7 +17,7 @@ const CheckboxList = () => {
     const [itemChecked, setItemChecked] = useState([])
 
     return (
-        <div className={styles.contentLayout}>
+        <div className={styles['content-layout']}>
             <Title title='3. Checkbox list'/>
             <div 
                 style={{

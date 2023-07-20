@@ -1,8 +1,23 @@
 import './App.css';
-import Page from './pages';
+import Header from './components/Layout/header';
+import ExerciseRoutes from './routes';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
-    return <Page />;
+    return (
+        <BrowserRouter>
+            <Header/>
+            <div
+                style={{
+                    padding: '50px',
+                    display: 'grid',
+                    justifyContent: 'center'
+                }}
+            >
+                <ExerciseRoutes/>
+            </div>
+        </BrowserRouter>
+    )
 }
 
 export default App;

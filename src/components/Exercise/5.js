@@ -36,7 +36,7 @@ const CustomForm = () => {
     });
 
     return (
-        <div className={styles.contentLayout}>
+        <div className={styles['content-layout']}>
             <Title title='5. Bulding a form'/>
             <div
                 style={{

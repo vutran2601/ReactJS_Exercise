@@ -3,12 +3,12 @@ import styles from './styles.module.css';
 
 const HelloWorld = () => {
     return (
-        <div className={styles.contentLayout}>
+        <div className={styles['content-layout']}>
             <Title title='1. Hello World'/>
             <div
                 style={{
-                    width: '500px',
-                    height: '500px',
+                    width: '400px',
+                    height: '400px',
                     backgroundColor: '#fec800',
                     display: 'flex',
                     justifyContent: 'center',

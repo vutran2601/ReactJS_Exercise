@@ -7,6 +7,7 @@ import ButtonNumberIncrement from '../components/Exercise/4';
 import CustomForm from '../components/Exercise/5';
 import RenderingJSON from '../components/Exercise/6';
 import SearchFilter from '../components/Exercise/7';
+import ImageSlider from '../components/Exercise/8';
 
 const Page = () => {
     return (
@@ -27,6 +28,7 @@ const Page = () => {
                 <CustomForm/>
                 <RenderingJSON/>
                 <SearchFilter/>
+                <ImageSlider/>
             </div>
         </>
     );
